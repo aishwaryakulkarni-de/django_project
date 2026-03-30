@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/media
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Migrations (optional)
+# If you want to ignore all migrations except initial
+# emp_app/migrations/*
+# !emp_app/migrations/__init__.py
+
+# Static files
+/staticfiles/
+
+# Coverage / testing
+.coverage
+htmlcov/
+
+# PyCharm
+.idea/
