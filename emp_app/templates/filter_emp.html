@@ -9,7 +9,7 @@
   <div class="container">
           <h1>Filter Employee Details!</h1>
       <hr>
-      <form action="/filter_emp" method="post">
+      <form action="{% url 'filter_emp' %}" method="post">
     {% csrf_token %}
     <label for="name">Employee First/Last Name</label><br>
     <input type="text" id="name" name="name" value="{{ name }}"><br>

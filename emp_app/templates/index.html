@@ -14,10 +14,10 @@
   <div class="container">
           <h1>Office Employee Management System!</h1>
       <hr>
-      <a class="btn btn-primary" href="/all_emp" role="button">View All Employee</a>
-      <a class="btn btn-primary" href="/add_emp" role="button">Add An Employee</a>
-      <a class="btn btn-primary" href="/remove_emp" role="button">Remove An Employee</a>
-      <a class="btn btn-primary" href="/filter_emp" role="button">Filter Employee Details</a>
+      <a class="btn btn-primary" href="{% url 'all_emp' %}" role="button">View All Employee</a>
+      <a class="btn btn-primary" href="{% url 'add_emp' %}" role="button">Add An Employee</a>
+      <a class="btn btn-primary" href="{% url 'remove_emp' %}" role="button">Remove An Employee</a>
+      <a class="btn btn-primary" href="{% url 'filter_emp' %}" role="button">Filter Employee Details</a>
 
 
   </div>
